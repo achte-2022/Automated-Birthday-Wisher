@@ -4,7 +4,7 @@
 
 ## Description
 
-An Automated Birthday Wisher that sends Birthday wishes automatically using Python with the help of SMTP.
+An Automated Birthday Wisher that sends Birthday wishes automatically using Python with the help of SMTP. This code is hosted on [pythonanywhere](https://www.pythonanywhere.com)  
 
 ## Requirements
 
