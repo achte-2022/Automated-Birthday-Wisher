@@ -3,7 +3,7 @@ import smtplib
 import datetime as dt
 import random
 import pandas as pd
-
+import os
 
 # CONSTANTS
 # FILES
@@ -14,9 +14,9 @@ LETTER_3_FILE = "letter_templates/letter_3.txt"
 LETTER_FILE = [LETTER_1_FILE, LETTER_2_FILE, LETTER_3_FILE]
 
 # DUMMY CREDENTIALS
-FROM_MAIL = "random@yahoo.com"
-PASSWORD = "password123"
-SMTP_SERVER = "smtp.mail.yahoo.com"
+FROM_MAIL = os.environ.get("FROM_MAIL")
+PASSWORD = os.environ.get("PASSWORD")
+SMTP_SERVER = os.environ.get("SMTP_SERVER")
 SUBJECT = "Subject:Happy Birthday\n"
 RECEIVER_PLACEHOLDER = "[TO_NAME]"
 SENDER_PLACEHOLDER = "[FROM_NAME]"

@@ -15,6 +15,8 @@ $ python3 --version
 Python 3.9.12
 ```
 
+[os](https://docs.python.org/3/library/os.html)
+
 [random](https://docs.python.org/3/library/random.html)
 
 [smtplib](https://docs.python.org/3/library/smtplib.html)
@@ -22,3 +24,23 @@ Python 3.9.12
 [datetime](https://docs.python.org/3/library/datetime.html)
 
 [pandas](https://pandas.pydata.org/)
+
+## Install
+
+```sh
+$ git clone git@github.com:achte-2022/Automated-Birthday-Wisher.git
+```
+
+## Run 
+
+### Environment Variables are DUMMY values
+
+```sh
+$ cd Automated-Birthday-Wisher
+# SETTING ENVIRONMENT VARIABLES
+$ export FROM_MAIL=random@yahoo.com;
+$ export PASSWORD=password123;
+$ export SMTP_SERVER=smtp.mail.yahoo.com;
+#RUNNING MAIN PROGRAM
+$ python3 main.py
+```
