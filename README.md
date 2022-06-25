@@ -31,16 +31,20 @@ Python 3.9.12
 $ git clone git@github.com:achte-2022/Automated-Birthday-Wisher.git
 ```
 
-## Run 
+## Setting Up Environment Variables 
 
 ### Environment Variables are DUMMY values
 
 ```sh
 $ cd Automated-Birthday-Wisher
-# SETTING ENVIRONMENT VARIABLES
 $ export FROM_MAIL=random@yahoo.com;
 $ export PASSWORD=password123;
 $ export SMTP_SERVER=smtp.mail.yahoo.com;
-#RUNNING MAIN PROGRAM
+```
+
+## Run
+
+```sh
+$ cd Automated-Birthday-Wisher
 $ python3 main.py
 ```
